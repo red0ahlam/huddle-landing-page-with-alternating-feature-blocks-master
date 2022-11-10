@@ -527,6 +527,10 @@ footer h1 {
     padding: 1em 0em;
 }
 
+footer a {
+    color: var(--clr-neutral-200);
+}
+
 .social-icon {
     max-width: 1.25rem;
 }
