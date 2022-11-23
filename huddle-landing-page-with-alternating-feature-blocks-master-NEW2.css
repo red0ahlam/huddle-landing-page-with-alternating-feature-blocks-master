@@ -355,6 +355,11 @@ a:visited {
     border-color: var(--clr-primary-500);
 }
 
+.socials li:hover a,
+.socials li:focus-visible a {
+    border-bottom: none;
+}
+
 .socials li:hover a >i,
 .socials li:focus-visible a >i{
     color: var(--clr-primary-500);
