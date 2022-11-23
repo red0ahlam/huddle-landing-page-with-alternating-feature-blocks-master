@@ -333,7 +333,7 @@ button {
 }
 
 button:hover,
-button:focus {
+button:focus-visible {
     opacity: 0.7;
 }
 
@@ -341,7 +341,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus-visible {
     border-bottom: 1px solid white;
 }
 
@@ -353,7 +354,7 @@ a:visited {
     border-color: var(--clr-primary-500);
 }
 
-.socials li:hover>a {
+.socials li:hover a >i {
     color: var(--clr-primary-500);
     border: none;
 }
